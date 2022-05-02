@@ -1,0 +1,17 @@
+.notification_body {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notification_body a{
+    color: black;
+    text-decoration: none;
+}
+.notification_body small{
+    color: $bgBlack;
+    font-size: 12px;
+}
+.notification_active {
+    background: rgb(206, 205, 205);
+}

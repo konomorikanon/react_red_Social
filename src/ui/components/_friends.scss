@@ -1,0 +1,15 @@
+.friends_friend img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.friends_friend{
+    background-color: white;
+    margin: 15px 0;
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}

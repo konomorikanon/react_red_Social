@@ -1,0 +1,48 @@
+.navbar_menu{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.navbar_icons-menu{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    a{
+        padding: 0px 15px;
+    }
+    @media (max-width : 768px) {
+        a{
+            padding: 0px 10px;
+        }
+        
+    }
+
+}
+.navbar_imgNav img{
+    width: 40px;
+}
+.navbar{
+    margin-top: -90px;
+    position: fixed;
+    width: 100%;
+
+    z-index: 100;
+}
+
+
+
+.navbar_text-navbar{
+ font-size: 22px;   
+}
+
+.navbar_notificaciones{
+    position: relative;
+}
+.navbar_notificaciones #navbar_number_notificacion{
+    position: absolute;
+    left: 80%;
+    top: -10px;
+    font-size: 17px;
+
+}
