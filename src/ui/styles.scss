@@ -1,0 +1,35 @@
+// globales
+@import './components/globa';
+
+
+// variables
+@import './variables';
+
+// principal
+@import './components/base';
+
+// components
+@import './auth/auth';
+
+// navbar
+@import './components/navbar';
+
+// sidebar
+@import './components/sidebar';
+
+// principal
+@import './components/principal';
+
+// publicaciones
+@import './components/publicaciones';
+@import './components/comentarios';
+
+// profile
+@import './components/profile';
+
+// friends
+@import './components/friends';
+
+
+// notificaciones
+@import  './components/notification'
